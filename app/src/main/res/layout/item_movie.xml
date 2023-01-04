@@ -12,5 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="130dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/imgitemmovie" />
+        android:src="@drawable/imgitemmovie"
+
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 </androidx.cardview.widget.CardView>
